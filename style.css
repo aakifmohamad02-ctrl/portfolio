@@ -145,6 +145,14 @@ section {
     }
 }
 
+@media (max-width:720px) {
+    .hero-img {
+        width: 170px;
+        border-radius: 50%;
+        margin-left: 70px;
+    }
+}
+
 
 
 @media (max-width:420px) {
