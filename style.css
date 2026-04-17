@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #0f172a;
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #020617;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.hero-img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.p {
+
+    padding: 20px;
+    line-height: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+    margin: auto;
+}
+
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #1e293b;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.project a {
+    text-decoration: none;
+    color: whitesmoke;
+
+
+}
+
+
+
+.project :hover {
+    color: greenyellow;
+}
+
+.cont {
+    background: #1e293b;
+    padding: 5px;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+}
+
+#contact a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#contact h3 :hover {
+    color: yellowgreen;
+}
+
+#contact h3 :hover {
+    color: yellowgreen;
+}
+
+
+/* @media */
+@media (max-width:800px) {
+    .hero-img {
+        width: 140px;
+        border-radius: 50%;
+        margin-left: 70px;
+    }
+
+    .cont {
+
+        border-radius: 18px;
+        width: 350px;
+    }
+
+    .ina {
+        position: absolute;
+        margin: auto;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width:420px) {
+    nav {
+        width: 97%;
+    }
+
+    .ina {
+        position: absolute;
+        margin: auto;
+        align-items: center;
+    }
+       .hero-img {
+margin-left: 70px;
+    }
+}
+
+
+
+
+
+@media (max-width:320px) {
+    nav {
+        width: 120%;
+    }
+
+    .ina {
+        position: absolute;
+        margin: auto;
+        align-items: center;
+
+    }
+}
