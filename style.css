@@ -15,6 +15,7 @@ nav {
     justify-content: space-between;
     padding: 20px 50px;
     background: #020617;
+   width: 100%;
 }
 
 nav ul {
@@ -156,9 +157,7 @@ section {
 
 
 @media (max-width:420px) {
-    nav {
-        width: 97%;
-    }
+
 
     .ina {
         position: absolute;
@@ -175,9 +174,7 @@ margin-left: 70px;
 
 
 @media (max-width:320px) {
-    nav {
-        width: 120%;
-    }
+  
 
     .ina {
         position: absolute;
