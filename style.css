@@ -117,6 +117,9 @@ section {
     text-decoration: none;
     color: whitesmoke;
 }
+.project a h3{
+   coloe:#89d6ff; 
+}
 
 .project a:hover {
     color: greenyellow;
