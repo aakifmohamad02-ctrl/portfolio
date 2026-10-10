@@ -112,6 +112,9 @@ section {
     border-radius: 10px;
     width: 200px;
 }
+.project :hover {
+    color: greenyellow;
+}
 
 .project a {
     text-decoration: none;
